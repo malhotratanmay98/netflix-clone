@@ -14,7 +14,7 @@
     <title>Netflix</title>
 </head>
 <body>
-    <header class=" p-3 bg-dark text-white">
+  <!--  <header class=" p-3 bg-dark text-white">
         <div class="container">
           <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
             <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
@@ -31,17 +31,17 @@
             </div>
           </div>
         </div>
-    </header>
+    </header>  -->
 
 
-    <div id="testimonial-carousel" class="carousel slide" data-ride="carousel" style="position:relative;">  <!--data ride false means it will not autoplay,caraousel means it will play after every 5 sconds(ie default)-->
+    <div id="testimonial-carousel" class="my-carousel carousel slide" data-ride="carousel" style="position:relative;">  <!--data ride false means it will not autoplay,caraousel means it will play after every 5 sconds(ie default)-->
       <div class="carousel-inner">
   
   
       <div class="carousel-item active">    <!--active means this is the initial slide-->
         <img class="full-carousel-image" src="images/friends-full.jpg" alt="">
-        <div class="card">
-          <h1>Friends</h1>
+        <div id="card1" class="card">
+         
         <img class="carousel-image headerItem-class w-100" src="images/friends-card.jpg" alt="iphone">
         <div class="details">
         <img class="imdb" src="images/imdb-logo.png" alt="">
@@ -54,9 +54,9 @@
   
       <div class="carousel-item">
         <img class="full-carousel-image" src="images/iphone-img.jpg" alt="">
-        <div class="card">
-          <h1>Mobiles</h1>
-          <img class="carousel-image headerItem-class w-100" src="images/laptop-img.jpg" alt="laptop">
+        <div id="card2" class="card">
+          
+          <img class="carousel-image headerItem-class w-100" src="images/item-image.jpg" alt="laptop">
           <div class="details">
             <img class="imdb" src="images/imdb-logo.png" alt="">
             <h2>Play season 1</h2>
@@ -77,10 +77,8 @@
       </a>
   
       </div>
-  
 
      
-
-
 </body>
+<script type="text/javascript" src="index.js"></script>
 </html>
