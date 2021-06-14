@@ -50,7 +50,7 @@ body{
 
 .ontouch-card{
     position: absolute;top:0; left:0;
-    
+    transform: rotateY(180deg);
     width: 80%;
     height: 400px;
     margin: 10% 10% 0% 10%;
