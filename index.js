@@ -1,4 +1,4 @@
-alert("Hello! I am an alert box!!");
+
 
 document.querySelector('#card1').addEventListener('click', () => {
     var element = document.getElementById('card1');
